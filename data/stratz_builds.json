@@ -1,1 +1,2331 @@
-{}
+{
+  "Anti-Mage": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Perseverance",
+      "Magic Wand",
+      "Wraith Band",
+      "Bracer"
+    ],
+    "core": [
+      "Yasha",
+      "Battle Fury",
+      "Manta Style",
+      "Skull Basher",
+      "Butterfly",
+      "Sange"
+    ],
+    "situational": [
+      "Abyssal Blade"
+    ]
+  },
+  "Axe": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Bracer",
+      "Vanguard",
+      "Perseverance"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Blade Mail",
+      "Black King Bar",
+      "Aghanim's Scepter",
+      "Lotus Orb",
+      "Kaya"
+    ],
+    "situational": []
+  },
+  "Bane": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [
+      "Aether Lens"
+    ],
+    "situational": []
+  },
+  "Bloodseeker": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Wraith Band"
+    ],
+    "core": [
+      "Maelstrom",
+      "Mjollnir"
+    ],
+    "situational": []
+  },
+  "Crystal Maiden": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Wind Lace",
+      "Null Talisman",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Glimmer Cape",
+      "Black King Bar"
+    ],
+    "situational": []
+  },
+  "Drow Ranger": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Dragon Lance",
+      "Falcon Blade",
+      "Magic Wand",
+      "Wraith Band"
+    ],
+    "core": [
+      "Yasha",
+      "Force Staff",
+      "Hurricane Pike",
+      "Manta Style",
+      "Aghanim's Scepter",
+      "Butterfly"
+    ],
+    "situational": [
+      "Black King Bar",
+      "Shadow Blade",
+      "Daedalus",
+      "Silver Edge"
+    ]
+  },
+  "Earthshaker": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Ring of Basilius",
+      "Bracer",
+      "Soul Ring"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Kaya",
+      "Yasha and Kaya",
+      "Yasha",
+      "Black King Bar",
+      "Eul's Scepter of Divinity"
+    ],
+    "situational": []
+  },
+  "Juggernaut": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Perseverance",
+      "Magic Wand",
+      "Wraith Band",
+      "Wind Lace"
+    ],
+    "core": [
+      "Yasha",
+      "Battle Fury",
+      "Manta Style",
+      "Butterfly",
+      "Aghanim's Scepter",
+      "Blink Dagger"
+    ],
+    "situational": [
+      "Swift Blink",
+      "Maelstrom"
+    ]
+  },
+  "Mirana": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Ring of Basilius",
+      "Urn of Shadows",
+      "Wraith Band"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Morphling": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Buckler",
+      "Ring of Basilius",
+      "Magic Wand",
+      "Wraith Band"
+    ],
+    "core": [
+      "Yasha",
+      "Manta Style",
+      "Vladmir's Offering",
+      "Butterfly"
+    ],
+    "situational": []
+  },
+  "Shadow Fiend": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Dragon Lance",
+      "Mask of Madness",
+      "Magic Wand",
+      "Crystalys"
+    ],
+    "core": [
+      "Yasha",
+      "Black King Bar",
+      "Hurricane Pike",
+      "Shadow Blade",
+      "Force Staff",
+      "Blink Dagger"
+    ],
+    "situational": [
+      "Daedalus",
+      "Kaya",
+      "Yasha and Kaya",
+      "Silver Edge"
+    ]
+  },
+  "Phantom Lancer": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Oblivion Staff",
+      "Magic Wand",
+      "Wraith Band"
+    ],
+    "core": [
+      "Yasha",
+      "Manta Style",
+      "Aghanim's Scepter",
+      "Orchid Malevolence",
+      "Eye of Skadi",
+      "Bloodthorn"
+    ],
+    "situational": []
+  },
+  "Puck": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Oblivion Staff",
+      "Magic Wand",
+      "Null Talisman",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Witch Blade",
+      "Parasma",
+      "Eul's Scepter of Divinity"
+    ],
+    "situational": []
+  },
+  "Pudge": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Bracer",
+      "Infused Raindrops",
+      "Wind Lace"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Aghanim's Scepter",
+      "Black King Bar",
+      "Aether Lens",
+      "Glimmer Cape",
+      "Blade Mail"
+    ],
+    "situational": [
+      "Lotus Orb",
+      "Spirit Vessel"
+    ]
+  },
+  "Razor": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Wraith Band"
+    ],
+    "core": [
+      "Black King Bar"
+    ],
+    "situational": []
+  },
+  "Sand King": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Bracer"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Aghanim's Scepter"
+    ],
+    "situational": []
+  },
+  "Storm Spirit": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Oblivion Staff",
+      "Soul Ring",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Kaya",
+      "Sange",
+      "Kaya and Sange",
+      "Witch Blade",
+      "Black King Bar",
+      "Parasma"
+    ],
+    "situational": [
+      "Orchid Malevolence",
+      "Aghanim's Scepter"
+    ]
+  },
+  "Sven": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Mask of Madness",
+      "Magic Wand",
+      "Bracer"
+    ],
+    "core": [
+      "Echo Sabre",
+      "Blink Dagger",
+      "Black King Bar"
+    ],
+    "situational": []
+  },
+  "Tiny": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Crystalys",
+      "Soul Ring",
+      "Wraith Band"
+    ],
+    "core": [
+      "Echo Sabre",
+      "Shadow Blade",
+      "Blink Dagger",
+      "Black King Bar",
+      "Silver Edge",
+      "Harpoon"
+    ],
+    "situational": [
+      "Daedalus"
+    ]
+  },
+  "Vengeful Spirit": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Wraith Band",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Aghanim's Scepter",
+      "Specialist's Array"
+    ],
+    "situational": []
+  },
+  "Windranger": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Null Talisman",
+      "Bracer",
+      "Crystalys"
+    ],
+    "core": [
+      "Maelstrom",
+      "Black King Bar",
+      "Blink Dagger",
+      "Mjollnir",
+      "Daedalus",
+      "Spirit Vessel"
+    ],
+    "situational": []
+  },
+  "Zeus": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand",
+      "Null Talisman",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Aghanim's Scepter",
+      "Kaya",
+      "Refresher Orb",
+      "Soul Booster",
+      "Octarine Core",
+      "Yasha and Kaya"
+    ],
+    "situational": [
+      "Yasha"
+    ]
+  },
+  "Kunkka": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Bracer",
+      "Magic Wand"
+    ],
+    "core": [
+      "Blade Mail",
+      "Aghanim's Scepter"
+    ],
+    "situational": []
+  },
+  "Lina": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Null Talisman",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Kaya",
+      "Aghanim's Scepter",
+      "Yasha",
+      "Yasha and Kaya",
+      "Black King Bar",
+      "Blink Dagger"
+    ],
+    "situational": [
+      "Ethereal Blade"
+    ]
+  },
+  "Lion": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Wind Lace",
+      "Infused Raindrops",
+      "Null Talisman"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Glimmer Cape",
+      "Aghanim's Scepter",
+      "Echo Sabre",
+      "Aether Lens",
+      "Force Staff"
+    ],
+    "situational": [
+      "Shadow Blade",
+      "Black King Bar"
+    ]
+  },
+  "Shadow Shaman": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Aether Lens",
+      "Glimmer Cape"
+    ],
+    "situational": []
+  },
+  "Slardar": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Bracer",
+      "Magic Wand",
+      "Soul Ring",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Black King Bar",
+      "Echo Sabre",
+      "Aghanim's Scepter"
+    ],
+    "situational": []
+  },
+  "Tidehunter": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Bracer",
+      "Soul Ring",
+      "Ring of Basilius"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Aghanim's Scepter",
+      "Vladmir's Offering",
+      "Mage Slayer",
+      "Shiva's Guard"
+    ],
+    "situational": []
+  },
+  "Witch Doctor": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand",
+      "Urn of Shadows",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Glimmer Cape",
+      "Blink Dagger",
+      "Aghanim's Scepter",
+      "Spirit Vessel"
+    ],
+    "situational": []
+  },
+  "Lich": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Infused Raindrops",
+      "Wind Lace"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Glimmer Cape",
+      "Aghanim's Scepter"
+    ],
+    "situational": []
+  },
+  "Riki": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Wraith Band",
+      "Orb of Corrosion"
+    ],
+    "core": [
+      "Diffusal Blade",
+      "Yasha",
+      "Manta Style"
+    ],
+    "situational": []
+  },
+  "Enigma": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Drum of Endurance",
+      "Headdress"
+    ],
+    "core": [
+      "Blink Dagger"
+    ],
+    "situational": []
+  },
+  "Tinker": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [],
+    "core": [
+      "Kaya",
+      "Blink Dagger",
+      "Aghanim's Scepter"
+    ],
+    "situational": []
+  },
+  "Sniper": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Wraith Band",
+      "Dragon Lance",
+      "Magic Wand",
+      "Mask of Madness"
+    ],
+    "core": [
+      "Maelstrom",
+      "Force Staff",
+      "Hurricane Pike",
+      "Mjollnir",
+      "Specialist's Array",
+      "Shadow Blade"
+    ],
+    "situational": [
+      "Black King Bar",
+      "Daedalus"
+    ]
+  },
+  "Necrophos": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Null Talisman",
+      "Bracer",
+      "Perseverance"
+    ],
+    "core": [
+      "Radiance",
+      "Heart of Tarrasque",
+      "Shiva's Guard",
+      "Aghanim's Scepter",
+      "Lotus Orb",
+      "Black King Bar"
+    ],
+    "situational": [
+      "Eul's Scepter of Divinity"
+    ]
+  },
+  "Warlock": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [
+      "Glimmer Cape"
+    ],
+    "situational": []
+  },
+  "Beastmaster": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Null Talisman",
+      "Ring of Basilius"
+    ],
+    "core": [
+      "Aghanim's Scepter",
+      "Blink Dagger",
+      "Black King Bar",
+      "Helm of the Dominator"
+    ],
+    "situational": []
+  },
+  "Queen of Pain": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Null Talisman",
+      "Infused Raindrops",
+      "Veil of Discord"
+    ],
+    "core": [
+      "Kaya",
+      "Aghanim's Scepter",
+      "Sange",
+      "Kaya and Sange",
+      "Soul Booster",
+      "Black King Bar"
+    ],
+    "situational": [
+      "Bloodstone",
+      "Shiva's Guard",
+      "Eul's Scepter of Divinity"
+    ]
+  },
+  "Venomancer": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Urn of Shadows",
+      "Magic Wand",
+      "Ring of Basilius"
+    ],
+    "core": [
+      "Spirit Vessel"
+    ],
+    "situational": []
+  },
+  "Faceless Void": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Perseverance",
+      "Magic Wand",
+      "Wraith Band",
+      "Mask of Madness"
+    ],
+    "core": [
+      "Battle Fury",
+      "Yasha",
+      "Manta Style",
+      "Aghanim's Scepter",
+      "Black King Bar",
+      "Maelstrom"
+    ],
+    "situational": [
+      "Monkey King Bar",
+      "Butterfly",
+      "Mjollnir",
+      "Eye of Skadi"
+    ]
+  },
+  "Wraith King": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Bracer"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Radiance",
+      "Armlet of Mordiggian"
+    ],
+    "situational": []
+  },
+  "Death Prophet": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Null Talisman"
+    ],
+    "core": [
+      "Eul's Scepter of Divinity"
+    ],
+    "situational": []
+  },
+  "Phantom Assassin": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Perseverance",
+      "Magic Wand",
+      "Wraith Band",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Battle Fury",
+      "Black King Bar",
+      "Desolator",
+      "Skull Basher",
+      "Abyssal Blade",
+      "Satanic"
+    ],
+    "situational": [
+      "Sange"
+    ]
+  },
+  "Pugna": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Templar Assassin": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Dragon Lance",
+      "Crystalys",
+      "Falcon Blade",
+      "Magic Wand"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Desolator",
+      "Hurricane Pike",
+      "Force Staff"
+    ],
+    "situational": []
+  },
+  "Viper": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Wraith Band",
+      "Bracer",
+      "Dragon Lance"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Luna": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Mask of Madness",
+      "Magic Wand",
+      "Dragon Lance",
+      "Wraith Band"
+    ],
+    "core": [
+      "Yasha",
+      "Manta Style",
+      "Black King Bar",
+      "Butterfly",
+      "Aghanim's Scepter",
+      "Satanic"
+    ],
+    "situational": []
+  },
+  "Dragon Knight": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Bracer",
+      "Magic Wand"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Dazzle": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Clockwerk": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Urn of Shadows",
+      "Wind Lace",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Spirit Vessel",
+      "Force Staff",
+      "Eul's Scepter of Divinity"
+    ],
+    "situational": []
+  },
+  "Leshrac": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Kaya"
+    ],
+    "situational": []
+  },
+  "Nature's Prophet": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Urn of Shadows",
+      "Magic Wand",
+      "Dragon Lance",
+      "Oblivion Staff"
+    ],
+    "core": [
+      "Maelstrom",
+      "Spirit Vessel",
+      "Mjollnir",
+      "Orchid Malevolence",
+      "Black King Bar",
+      "Force Staff"
+    ],
+    "situational": []
+  },
+  "Lifestealer": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Bracer",
+      "Buckler"
+    ],
+    "core": [
+      "Yasha",
+      "Radiance",
+      "Aghanim's Scepter",
+      "Skull Basher",
+      "Sange",
+      "Sange and Yasha"
+    ],
+    "situational": [
+      "Manta Style",
+      "Abyssal Blade",
+      "Armlet of Mordiggian"
+    ]
+  },
+  "Dark Seer": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Null Talisman",
+      "Ring of Basilius"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Clinkz": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Falcon Blade",
+      "Dragon Lance",
+      "Crystalys",
+      "Magic Wand"
+    ],
+    "core": [
+      "Desolator"
+    ],
+    "situational": []
+  },
+  "Omniknight": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Bracer"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Enchantress": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Huskar": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Bracer",
+      "Magic Wand",
+      "Wind Lace"
+    ],
+    "core": [
+      "Armlet of Mordiggian",
+      "Blink Dagger",
+      "Black King Bar",
+      "Sange"
+    ],
+    "situational": []
+  },
+  "Night Stalker": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Bracer",
+      "Magic Wand",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Black King Bar",
+      "Echo Sabre",
+      "Harpoon",
+      "Nullifier",
+      "Hand of Midas"
+    ],
+    "situational": []
+  },
+  "Broodmother": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Soul Ring",
+      "Wraith Band"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Bounty Hunter": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Urn of Shadows",
+      "Drum of Endurance",
+      "Headdress"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Weaver": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Falcon Blade",
+      "Urn of Shadows",
+      "Wraith Band"
+    ],
+    "core": [
+      "Desolator",
+      "Spirit Vessel"
+    ],
+    "situational": []
+  },
+  "Jakiro": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [
+      "Glimmer Cape"
+    ],
+    "situational": []
+  },
+  "Batrider": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [],
+    "core": [],
+    "situational": []
+  },
+  "Chen": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [],
+    "core": [],
+    "situational": []
+  },
+  "Spectre": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Wraith Band",
+      "Perseverance",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Yasha",
+      "Manta Style",
+      "Radiance",
+      "Eye of Skadi",
+      "Skull Basher"
+    ],
+    "situational": []
+  },
+  "Ancient Apparition": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Doom": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Bracer",
+      "Magic Wand",
+      "Drum of Endurance",
+      "Headdress"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Black King Bar",
+      "Radiance",
+      "Shiva's Guard",
+      "Hand of Midas",
+      "Aghanim's Scepter"
+    ],
+    "situational": []
+  },
+  "Ursa": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Perseverance",
+      "Magic Wand",
+      "Wraith Band",
+      "Bracer"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Battle Fury",
+      "Skull Basher",
+      "Black King Bar",
+      "Abyssal Blade",
+      "Sange"
+    ],
+    "situational": [
+      "Aghanim's Scepter"
+    ]
+  },
+  "Spirit Breaker": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Wind Lace",
+      "Drum of Endurance",
+      "Urn of Shadows"
+    ],
+    "core": [
+      "Shadow Blade",
+      "Yasha",
+      "Kaya",
+      "Yasha and Kaya",
+      "Aghanim's Scepter",
+      "Spirit Vessel"
+    ],
+    "situational": [
+      "Hand of Midas"
+    ]
+  },
+  "Gyrocopter": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Falcon Blade",
+      "Magic Wand",
+      "Crystalys"
+    ],
+    "core": [
+      "Aghanim's Scepter"
+    ],
+    "situational": []
+  },
+  "Alchemist": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Soul Ring",
+      "Magic Wand",
+      "Bracer"
+    ],
+    "core": [
+      "Aghanim's Scepter",
+      "Radiance",
+      "Blink Dagger",
+      "Black King Bar"
+    ],
+    "situational": []
+  },
+  "Invoker": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Null Talisman",
+      "Magic Wand",
+      "Urn of Shadows",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Aghanim's Scepter",
+      "Kaya",
+      "Meteor Hammer",
+      "Rod of Atos",
+      "Soul Booster",
+      "Octarine Core"
+    ],
+    "situational": [
+      "Black King Bar",
+      "Spirit Vessel",
+      "Gleipnir",
+      "Blink Dagger"
+    ]
+  },
+  "Silencer": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Ring of Basilius",
+      "Null Talisman",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Force Staff",
+      "Aghanim's Scepter",
+      "Refresher Orb",
+      "Hand of Midas",
+      "Glimmer Cape"
+    ],
+    "situational": []
+  },
+  "Outworld Destroyer": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Null Talisman",
+      "Oblivion Staff",
+      "Magic Wand",
+      "Dragon Lance"
+    ],
+    "core": [
+      "Witch Blade",
+      "Blink Dagger",
+      "Hurricane Pike",
+      "Force Staff"
+    ],
+    "situational": []
+  },
+  "Lycan": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [],
+    "core": [
+      "Helm of the Dominator",
+      "Helm of the Overlord"
+    ],
+    "situational": []
+  },
+  "Brewmaster": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Bracer",
+      "Magic Wand",
+      "Urn of Shadows"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Shadow Demon": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Lone Druid": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Orb of Corrosion"
+    ],
+    "core": [
+      "Maelstrom",
+      "Aghanim's Scepter",
+      "Mjollnir",
+      "Shadow Blade",
+      "Silver Edge"
+    ],
+    "situational": []
+  },
+  "Chaos Knight": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Bracer",
+      "Magic Wand"
+    ],
+    "core": [
+      "Armlet of Mordiggian"
+    ],
+    "situational": []
+  },
+  "Meepo": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Wraith Band"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Treant Protector": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Ogre Magi": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand",
+      "Soul Ring",
+      "Bracer"
+    ],
+    "core": [
+      "Hand of Midas",
+      "Blink Dagger",
+      "Glimmer Cape"
+    ],
+    "situational": []
+  },
+  "Undying": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand",
+      "Mekansm",
+      "Headdress"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Rubick": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand",
+      "Infused Raindrops",
+      "Urn of Shadows"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Aghanim's Scepter",
+      "Aether Lens",
+      "Eul's Scepter of Divinity",
+      "Glimmer Cape",
+      "Force Staff"
+    ],
+    "situational": [
+      "Phylactery"
+    ]
+  },
+  "Disruptor": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Aghanim's Scepter",
+      "Glimmer Cape"
+    ],
+    "situational": []
+  },
+  "Nyx Assassin": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [
+      "Dagon"
+    ],
+    "situational": []
+  },
+  "Naga Siren": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Wraith Band"
+    ],
+    "core": [
+      "Yasha"
+    ],
+    "situational": []
+  },
+  "Keeper of the Light": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Urn of Shadows",
+      "Magic Wand"
+    ],
+    "core": [
+      "Spirit Vessel",
+      "Soul Booster",
+      "Octarine Core"
+    ],
+    "situational": []
+  },
+  "Io": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Mekansm",
+      "Headdress"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Visage": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Null Talisman",
+      "Magic Wand"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Slark": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Perseverance",
+      "Bracer",
+      "Wraith Band"
+    ],
+    "core": [
+      "Diffusal Blade",
+      "Aghanim's Scepter",
+      "Shadow Blade",
+      "Mage Slayer",
+      "Black King Bar",
+      "Echo Sabre"
+    ],
+    "situational": []
+  },
+  "Medusa": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Null Talisman",
+      "Magic Wand"
+    ],
+    "core": [
+      "Yasha",
+      "Manta Style",
+      "Butterfly"
+    ],
+    "situational": []
+  },
+  "Troll Warlord": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Perseverance"
+    ],
+    "core": [
+      "Battle Fury",
+      "Yasha"
+    ],
+    "situational": []
+  },
+  "Centaur Warrunner": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Bracer",
+      "Vanguard",
+      "Magic Wand"
+    ],
+    "core": [
+      "Blink Dagger"
+    ],
+    "situational": []
+  },
+  "Magnus": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Bracer",
+      "Ring of Basilius",
+      "Wraith Band"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Black King Bar",
+      "Echo Sabre",
+      "Harpoon",
+      "Aghanim's Scepter"
+    ],
+    "situational": []
+  },
+  "Timbersaw": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Soul Ring",
+      "Magic Wand",
+      "Bracer",
+      "Ring of Basilius"
+    ],
+    "core": [
+      "Kaya",
+      "Kaya and Sange",
+      "Sange",
+      "Blink Dagger",
+      "Aghanim's Scepter"
+    ],
+    "situational": []
+  },
+  "Bristleback": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Bracer",
+      "Magic Wand",
+      "Soul Ring"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Tusk": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Wind Lace",
+      "Bracer",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Aghanim's Scepter",
+      "Eul's Scepter of Divinity"
+    ],
+    "situational": []
+  },
+  "Skywrath Mage": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Null Talisman",
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [
+      "Rod of Atos",
+      "Kaya",
+      "Aghanim's Scepter"
+    ],
+    "situational": []
+  },
+  "Abaddon": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Ring of Basilius"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Elder Titan": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [],
+    "core": [],
+    "situational": []
+  },
+  "Legion Commander": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Bracer",
+      "Magic Wand",
+      "Infused Raindrops",
+      "Soul Ring"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Blade Mail",
+      "Black King Bar"
+    ],
+    "situational": []
+  },
+  "Techies": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Soul Ring",
+      "Ring of Basilius",
+      "Null Talisman"
+    ],
+    "core": [
+      "Aether Lens",
+      "Kaya",
+      "Aghanim's Scepter"
+    ],
+    "situational": []
+  },
+  "Ember Spirit": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Perseverance",
+      "Urn of Shadows",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Mage Slayer",
+      "Kaya",
+      "Aghanim's Scepter",
+      "Spirit Vessel",
+      "Sange",
+      "Kaya and Sange"
+    ],
+    "situational": [
+      "Black King Bar"
+    ]
+  },
+  "Earth Spirit": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Urn of Shadows",
+      "Magic Wand",
+      "Bracer"
+    ],
+    "core": [
+      "Spirit Vessel"
+    ],
+    "situational": []
+  },
+  "Underlord": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Soul Ring",
+      "Magic Wand",
+      "Ring of Basilius",
+      "Bracer"
+    ],
+    "core": [
+      "Aghanim's Scepter",
+      "Rod of Atos",
+      "Pipe of Insight",
+      "Gleipnir"
+    ],
+    "situational": []
+  },
+  "Terrorblade": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Falcon Blade",
+      "Dragon Lance",
+      "Magic Wand",
+      "Wraith Band"
+    ],
+    "core": [
+      "Yasha",
+      "Manta Style",
+      "Eye of Skadi"
+    ],
+    "situational": []
+  },
+  "Phoenix": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Urn of Shadows",
+      "Magic Wand",
+      "Bracer"
+    ],
+    "core": [
+      "Spirit Vessel",
+      "Shiva's Guard"
+    ],
+    "situational": []
+  },
+  "Oracle": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Winter Wyvern": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand",
+      "Null Talisman"
+    ],
+    "core": [
+      "Blink Dagger"
+    ],
+    "situational": []
+  },
+  "Arc Warden": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [],
+    "core": [
+      "Hand of Midas",
+      "Maelstrom"
+    ],
+    "situational": []
+  },
+  "Monkey King": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Wraith Band",
+      "Perseverance",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Black King Bar",
+      "Desolator",
+      "Echo Sabre",
+      "Diffusal Blade",
+      "Mage Slayer"
+    ],
+    "situational": []
+  },
+  "Dark Willow": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand"
+    ],
+    "core": [
+      "Eul's Scepter of Divinity"
+    ],
+    "situational": []
+  },
+  "Pangolier": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Perseverance",
+      "Bracer",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Aghanim's Scepter",
+      "Diffusal Blade",
+      "Mage Slayer",
+      "Skull Basher"
+    ],
+    "situational": []
+  },
+  "Grimstroke": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Glimmer Cape"
+    ],
+    "situational": []
+  },
+  "Hoodwink": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand",
+      "Urn of Shadows",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Rod of Atos",
+      "Gleipnir",
+      "Glimmer Cape",
+      "Force Staff"
+    ],
+    "situational": []
+  },
+  "Void Spirit": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Urn of Shadows",
+      "Perseverance",
+      "Bracer"
+    ],
+    "core": [
+      "Aghanim's Scepter",
+      "Spirit Vessel",
+      "Mage Slayer",
+      "Yasha",
+      "Manta Style"
+    ],
+    "situational": []
+  },
+  "Snapfire": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Ring of Basilius",
+      "Soul Ring",
+      "Infused Raindrops"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Kaya",
+      "Yasha",
+      "Yasha and Kaya",
+      "Black King Bar",
+      "Shiva's Guard"
+    ],
+    "situational": [
+      "Force Staff",
+      "Glimmer Cape",
+      "Scythe of Vyse",
+      "Soul Booster"
+    ]
+  },
+  "Mars": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Bracer",
+      "Soul Ring",
+      "Magic Wand"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Black King Bar",
+      "Eul's Scepter of Divinity"
+    ],
+    "situational": []
+  },
+  "Ringmaster": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Ring of Basilius",
+      "Magic Wand"
+    ],
+    "core": [],
+    "situational": []
+  },
+  "Dawnbreaker": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Soul Ring",
+      "Magic Wand",
+      "Bracer",
+      "Buckler"
+    ],
+    "core": [
+      "Echo Sabre",
+      "Harpoon",
+      "Black King Bar",
+      "Desolator",
+      "Assault Cuirass",
+      "Blade Mail"
+    ],
+    "situational": [
+      "Mage Slayer"
+    ]
+  },
+  "Marci": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand",
+      "Bracer"
+    ],
+    "core": [
+      "Black King Bar"
+    ],
+    "situational": []
+  },
+  "Primal Beast": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Soul Ring",
+      "Magic Wand",
+      "Bracer"
+    ],
+    "core": [
+      "Blink Dagger",
+      "Black King Bar",
+      "Aghanim's Scepter"
+    ],
+    "situational": []
+  },
+  "Muerta": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Dragon Lance",
+      "Falcon Blade",
+      "Magic Wand",
+      "Crystalys"
+    ],
+    "core": [
+      "Maelstrom",
+      "Mjollnir",
+      "Black King Bar",
+      "Force Staff",
+      "Hurricane Pike"
+    ],
+    "situational": []
+  },
+  "Kez": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Perseverance",
+      "Magic Wand",
+      "Wraith Band",
+      "Crystalys"
+    ],
+    "core": [
+      "Mage Slayer",
+      "Desolator",
+      "Aghanim's Scepter",
+      "Black King Bar",
+      "Yasha",
+      "Manta Style"
+    ],
+    "situational": [
+      "Daedalus"
+    ]
+  },
+  "Largo": {
+    "starting": [
+      "Tango",
+      "Healing Salve",
+      "Iron Branch"
+    ],
+    "early": [
+      "Magic Wand"
+    ],
+    "core": [],
+    "situational": []
+  }
+}
