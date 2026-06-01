@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dota 2 Build Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/assets/index-HCUvUh-a.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BgkQP5ZK.css">
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="header">
+        <div class="logo-area">
+          <svg class="dota-logo" viewBox="0 0 256 256" width="40" height="40" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(0 0 8px rgba(244, 63, 94, 0.6));">
+            <path d="M12 28.5C12 28.5 75 12 120 12C128.3 12 135 18.7 135 27V105.8L12 28.5Z" fill="#F43F5E"/>
+            <path d="M149.3 149.3V27C149.3 18.7 156 12 164.3 12C209.3 12 244 28.5 244 28.5L149.3 149.3Z" fill="#F43F5E"/>
+            <path d="M12 43.5L244 244C244 244 209.3 227.5 164.3 227.5C156 227.5 149.3 220.8 149.3 212.5V135L12 43.5Z" fill="#E11D48"/>
+          </svg>
+          <h1>Dota 2 Build <span>Assistant</span></h1>
+        </div>
+
+        <div class="header-actions">
+          <a href="https://boosty.to/mikscreator/purchase/3820885?ssource=DIRECT&share=subscription_link" target="_blank" class="btn-donate-header" style="text-decoration: none;">☕ Поддержать автора</a>
+          <a href="https://www.twitch.tv/mikscreator" target="_blank" class="btn-subscribe-header" style="text-decoration: none;">📺 Подпишись</a>
+        </div>
+
+        <div class="twitch-gate" id="twitchGate">
+          <div class="input-group">
+            <input type="text" id="twitchNick" placeholder="Твой Twitch ник..." />
+            <button id="btnAuth" class="btn-primary">Авторизоваться</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="main-content hidden" id="mainContent">
+        <nav class="tabs">
+          <button class="tab active" data-tab="drafter">Drafter</button>
+          <button class="tab" data-tab="builds">AI Builds</button>
+        </nav>
+
+        <section id="drafterTab" class="tab-content active">
+          <div class="drafter-layout">
+            <div class="card glass enemy-pick-card">
+              <h2>Enemy Heroes</h2>
+              <p>Выберите героев противника для анализа угроз и контр-пиков.</p>
+              <div class="hero-slots" id="enemySlots">
+                <!-- JS will inject 5 slots here -->
+              </div>
+            </div>
+            
+            <div class="drafter-results-wrapper">
+              <div class="analysis-panel" id="analysisPanel" style="display: none;">
+                <div class="card glass threats-card">
+                  <h3><span class="icon">⚠️</span> Анализ Угроз</h3>
+                  <div id="threatsBars" class="threats-bars"></div>
+                </div>
+                
+                <div class="card glass counters-card">
+                  <h3><span class="icon">🛡️</span> Контр-Предметы</h3>
+                  <div id="countersList" class="counters-list"></div>
+                </div>
+
+                <!-- RECOMMENDED HERO COUNTERS -->
+                <div class="card glass counter-heroes-card" style="grid-column: span 2;">
+                  <h3><span class="icon">🏆</span> Рекомендуемые контрпики (Для новичков)</h3>
+                  <div class="counter-heroes-options" style="margin-bottom: 1rem; display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+                    <div>
+                      <label for="drafterPosSelect" style="font-size: 0.9rem; margin-right: 0.5rem; color: var(--text-muted);">Позиция:</label>
+                      <select id="drafterPosSelect" class="styled-select">
+                        <option value="">Все позиции</option>
+                        <option value="1">Pos 1 - Carry</option>
+                        <option value="2">Pos 2 - Mid</option>
+                        <option value="3">Pos 3 - Offlane</option>
+                        <option value="4">Pos 4 - Soft Support</option>
+                        <option value="5">Pos 5 - Hard Support</option>
+                      </select>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 0.5rem;">
+                      <input type="checkbox" id="easyOnlyCheck" style="cursor: pointer; width: 16px; height: 16px;" />
+                      <label for="easyOnlyCheck" style="font-size: 0.9rem; color: var(--text-muted); cursor: pointer;">Только простые герои (новичкам)</label>
+                    </div>
+                  </div>
+                  <div id="counterHeroesList" class="counter-heroes-list">
+                    <!-- JS will inject recommended counter heroes here -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="buildsTab" class="tab-content">
+          <div class="builds-layout">
+            <div class="card glass build-controls-card">
+              <h2>Generate AI Build</h2>
+              <div class="build-controls-vertical" style="display: flex; flex-direction: column; gap: 1.2rem;">
+                <div class="hero-selector-wrapper" style="display: flex; flex-direction: column; gap: 0.5rem;">
+                  <span style="font-size: 0.9rem; font-weight: 600; color: var(--text-muted);">Ваш герой:</span>
+                  <div class="hero-selector" id="myHeroSelector">
+                    <button class="btn-outline" style="width: 100%;">Select Your Hero</button>
+                  </div>
+                </div>
+                
+                <div class="build-pos-wrapper" style="display: flex; flex-direction: column; gap: 0.5rem;">
+                  <span style="font-size: 0.9rem; font-weight: 600; color: var(--text-muted);">Позиция:</span>
+                  <select id="posSelect" class="styled-select" style="height: 48px; width: 100%;">
+                    <option value="1">Pos 1 - Carry</option>
+                    <option value="2">Pos 2 - Mid</option>
+                    <option value="3">Pos 3 - Offlane</option>
+                    <option value="4">Pos 4 - Soft Support</option>
+                    <option value="5">Pos 5 - Hard Support</option>
+                  </select>
+                </div>
+
+
+
+                <div class="build-enemies-wrapper" style="display: flex; flex-direction: column; gap: 0.5rem;">
+                  <span style="font-size: 0.9rem; font-weight: 600; color: var(--text-muted);">Враги (из драфтера):</span>
+                  <div class="hero-slots mini" id="buildEnemySlots">
+                    <!-- Synced mini enemy slots -->
+                  </div>
+                </div>
+
+                <button id="btnGenerate" class="btn-primary glow" style="height: 52px; width: 100%;">Generate Build</button>
+              </div>
+            </div>
+            
+            <div class="builds-results-wrapper" style="flex: 1; width: 100%;">
+              <div id="buildWelcome" class="card glass welcome-card" style="text-align: center; padding: 4rem 2rem;">
+                <span class="welcome-icon" style="font-size: 4rem; display: block; filter: drop-shadow(0 0 10px rgba(217, 119, 6, 0.4));">🛡️</span>
+                <h3 style="margin-top: 1.5rem; font-size: 1.6rem; color: #fbbf24;">ИИ-ГЕНЕРАТОР БИЛДОВ</h3>
+                <p style="margin-top: 0.8rem; font-size: 0.95rem; color: var(--text-muted); max-width: 500px; margin-left: auto; margin-right: auto; line-height: 1.5;">
+                  Выберите своего героя в левой панели, укажите игровую позицию и нажмите кнопку <strong>«Generate Build»</strong> для расчета оптимального Immortal-сборки на основе текущего пика врагов.
+                </p>
+              </div>
+              <div id="buildResult" class="build-result hidden">
+                <!-- JS will render build stages here -->
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+      <footer class="footer">
+        <a href="https://www.twitch.tv/mikscreator" target="_blank" class="btn-twitch">📺 Подпишись на Twitch</a>
+      </footer>
+    </div>
+
+    <!-- Hero Picker Modal -->
+    <div class="modal" id="heroModal">
+      <div class="modal-content glass">
+        <div class="modal-header">
+          <h3>Select Hero</h3>
+          <button class="close-modal">&times;</button>
+        </div>
+        <input type="text" id="heroSearch" class="search-input" placeholder="Search hero..." autofocus />
+        <div class="hero-grid" id="modalHeroGrid">
+          <!-- JS fills this -->
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
