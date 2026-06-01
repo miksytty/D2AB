@@ -3,12 +3,24 @@
     "name": "Anti-Mage",
     "starting": [
       "Quelling Blade",
-      "Iron Branch"
+      "Iron Branch",
+      "Magic Stick",
+      "Tango",
+      "Circlet"
     ],
     "core": [
       "Wraith Band",
       "Magic Wand",
-      "Power Treads"
+      "Power Treads",
+      "Battle Fury",
+      "Yasha",
+      "Manta Style",
+      "Butterfly",
+      "Skull Basher",
+      "Abyssal Blade",
+      "Eye of Skadi",
+      "Black King Bar",
+      "Aghanim's Shard"
     ],
     "early": [
       "Magic Wand"
@@ -117,12 +129,24 @@
     "starting": [
       "Quelling Blade",
       "Slippers of Agility",
-      "Iron Branch"
+      "Iron Branch",
+      "Circlet",
+      "Tango",
+      "Magic Stick"
     ],
     "core": [
       "Wraith Band",
       "Magic Wand",
-      "Phase Boots"
+      "Phase Boots",
+      "Maelstrom",
+      "Mjollnir",
+      "Black King Bar",
+      "Aghanim's Shard",
+      "Skull Basher",
+      "Butterfly",
+      "Blink Dagger",
+      "Nullifier",
+      "Abyssal Blade"
     ],
     "early": [
       "Magic Wand"
@@ -347,11 +371,26 @@
     "name": "Morphling",
     "starting": [
       "Iron Branch",
-      "Magic Wand"
+      "Magic Wand",
+      "Tango",
+      "Faerie Fire",
+      "Circlet",
+      "Magic Stick"
     ],
     "core": [
       "Magic Wand",
-      "Power Treads"
+      "Power Treads",
+      "Morbid Mask",
+      "Vladmir's Offering",
+      "Yasha",
+      "Manta Style",
+      "Butterfly",
+      "Black King Bar",
+      "Crystalys",
+      "Aghanim's Shard",
+      "Daedalus",
+      "Satanic",
+      "Swift Blink"
     ],
     "early": [
       "Magic Wand"
@@ -459,12 +498,25 @@
   "13": {
     "name": "Puck",
     "starting": [
-      "Iron Branch"
+      "Iron Branch",
+      "Observer Ward",
+      "Tango",
+      "Faerie Fire"
     ],
     "core": [
       "Bottle",
       "Null Talisman",
-      "Magic Wand"
+      "Magic Wand",
+      "Power Treads",
+      "Witch Blade",
+      "Blink Dagger",
+      "Aghanim's Shard",
+      "Parasma",
+      "Octarine Core",
+      "Aghanim's Scepter",
+      "Maelstrom",
+      "Crystalys",
+      "Mjollnir"
     ],
     "early": [
       "Magic Wand"
@@ -1138,11 +1190,24 @@
     "starting": [
       "Quelling Blade",
       "Slippers of Agility",
-      "Iron Branch"
+      "Iron Branch",
+      "Circlet",
+      "Tango",
+      "Magic Stick",
+      "Faerie Fire"
     ],
     "core": [
       "Wraith Band",
-      "Magic Wand"
+      "Magic Wand",
+      "Power Treads",
+      "Diffusal Blade",
+      "Yasha",
+      "Manta Style",
+      "Aghanim's Shard",
+      "Crystalys",
+      "Butterfly",
+      "Eye of Skadi",
+      "Daedalus"
     ],
     "early": [
       "Magic Wand"
@@ -1249,10 +1314,23 @@
     "name": "Sniper",
     "starting": [
       "Slippers of Agility",
-      "Iron Branch"
+      "Iron Branch",
+      "Circlet",
+      "Observer Ward",
+      "Tango",
+      "Faerie Fire"
     ],
     "core": [
-      "Wraith Band"
+      "Wraith Band",
+      "Power Treads",
+      "Maelstrom",
+      "Dragon Lance",
+      "Hurricane Pike",
+      "Mjollnir",
+      "Aghanim's Shard",
+      "Aghanim's Scepter",
+      "Black King Bar",
+      "Satanic"
     ],
     "early": [
       "Magic Wand"
@@ -1583,12 +1661,24 @@
     "name": "Phantom Assassin",
     "starting": [
       "Quelling Blade",
-      "Iron Branch"
+      "Iron Branch",
+      "Magic Stick",
+      "Tango",
+      "Faerie Fire"
     ],
     "core": [
       "Wraith Band",
       "Magic Wand",
-      "Power Treads"
+      "Power Treads",
+      "Battle Fury",
+      "Desolator",
+      "Black King Bar",
+      "Skull Basher",
+      "Morbid Mask",
+      "Aghanim's Shard",
+      "Abyssal Blade",
+      "Satanic",
+      "Nullifier"
     ],
     "early": [
       "Magic Wand"
@@ -2712,10 +2802,22 @@
     "name": "Invoker",
     "starting": [
       "Mantle of Intelligence",
-      "Iron Branch"
+      "Iron Branch",
+      "Circlet",
+      "Observer Ward",
+      "Tango",
+      "Faerie Fire"
     ],
     "core": [
-      "Null Talisman"
+      "Null Talisman",
+      "Magic Wand",
+      "Kaya",
+      "Meteor Hammer",
+      "Boots of Travel",
+      "Aghanim's Scepter",
+      "Aghanim's Shard",
+      "Black King Bar",
+      "Shiva's Guard"
     ],
     "early": [
       "Magic Wand"
@@ -3433,12 +3535,22 @@
     "name": "Slark",
     "starting": [
       "Quelling Blade",
-      "Iron Branch"
+      "Iron Branch",
+      "Magic Stick",
+      "Tango",
+      "Faerie Fire"
     ],
     "core": [
       "Wraith Band",
       "Magic Wand",
-      "Power Treads"
+      "Power Treads",
+      "Diffusal Blade",
+      "Aghanim's Scepter",
+      "Aghanim's Shard",
+      "Black King Bar",
+      "Disperser",
+      "Eye of Skadi",
+      "Skull Basher"
     ],
     "early": [
       "Magic Wand"
@@ -3471,11 +3583,22 @@
     "name": "Medusa",
     "starting": [
       "Iron Branch",
-      "Magic Wand"
+      "Magic Wand",
+      "Circlet",
+      "Magic Stick",
+      "Enchanted Mango"
     ],
     "core": [
       "Null Talisman",
-      "Power Treads"
+      "Power Treads",
+      "Yasha",
+      "Manta Style",
+      "Butterfly",
+      "Eye of Skadi",
+      "Aghanim's Shard",
+      "Crystalys",
+      "Daedalus",
+      "Aghanim's Scepter"
     ],
     "early": [
       "Magic Wand"
@@ -3915,11 +4038,24 @@
   "106": {
     "name": "Ember Spirit",
     "starting": [
-      "Iron Branch"
+      "Iron Branch",
+      "Observer Ward",
+      "Tango",
+      "Faerie Fire",
+      "Quelling Blade"
     ],
     "core": [
       "Bottle",
-      "Magic Wand"
+      "Magic Wand",
+      "Phase Boots",
+      "Mage Slayer",
+      "Kaya",
+      "Aghanim's Shard",
+      "Kaya and Sange",
+      "Veil of Discord",
+      "Aghanim's Scepter",
+      "Bloodstone",
+      "Octarine Core"
     ],
     "early": [
       "Magic Wand"
@@ -4400,11 +4536,24 @@
   "126": {
     "name": "Void Spirit",
     "starting": [
-      "Iron Branch"
+      "Iron Branch",
+      "Observer Ward",
+      "Tango",
+      "Faerie Fire"
     ],
     "core": [
       "Bottle",
-      "Magic Wand"
+      "Magic Wand",
+      "Urn of Shadows",
+      "Power Treads",
+      "Spirit Vessel",
+      "Aghanim's Shard",
+      "Yasha",
+      "Aghanim's Scepter",
+      "Manta Style",
+      "Black King Bar",
+      "Crystalys",
+      "Daedalus"
     ],
     "early": [
       "Magic Wand"
